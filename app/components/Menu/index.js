@@ -6,12 +6,9 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 
 import classNames from 'classnames';
 
-import CurrentUser from '../CurrentUser'
-
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 
-import Loader from '../Loader'
 
 import yellow from '@material-ui/core/colors/yellow';
 import grey from '@material-ui/core/colors/grey';
@@ -43,17 +40,9 @@ import LockIcon from '@material-ui/icons/Lock';
 import PersonIcon from '@material-ui/icons/Person';
 import PeopleIcon from '@material-ui/icons/People';
 
-import LogoHWBA from '../../images/hwba_logo.png';
-import LogoRBA from '../../images/rba_logo.png';
-import LogoWMBL from '../../images/wmbl_logo.png';
-
 const drawerWidth = 240;
 
-const logos = {
-  hwba: LogoHWBA,
-  rba: LogoRBA,
-  wmbl: LogoWMBL 
-}
+
 
 const classes = theme => ({
   palette: {

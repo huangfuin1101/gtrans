@@ -3,7 +3,6 @@ import Root from '../../Root'
 
 import { LeagueContext } from '../../Root'
 import Typography from '@material-ui/core/Typography';
-import Panel from '../../Panel'
 
 import DB from '../../../helpers/DB'
 

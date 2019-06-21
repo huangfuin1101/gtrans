@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Menu from '../Menu'
 import Footer from '../Footer'
 
-import DB from '../../helpers/DB'
 import axios from 'axios'
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
