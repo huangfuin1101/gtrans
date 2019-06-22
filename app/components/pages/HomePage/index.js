@@ -26,9 +26,10 @@ class Page extends Component {
         'italian',
         'japanese',
         'korean',
-        'russian',
         'spanish',
-        'thai'
+        'russian',
+        'thai',
+        'arabic'
       ]
     }
   }
